@@ -11,8 +11,10 @@ import lombok.Setter;
 @NoArgsConstructor
 
 public class Lojista {
+    private Long IdLojista;
     private String nomeCompleto;
     private String CNPJ;
     private String email;
     private String senha;
+
 }

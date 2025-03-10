@@ -11,6 +11,7 @@ import lombok.Setter;
 @NoArgsConstructor
 
 public class Usuario {
+    private Long idUsuario;
     private String nomeCompleto;
     private String CPF;
     private String email;
